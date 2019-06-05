@@ -1,0 +1,267 @@
+@charset "UTF-8";
+body {background:#E8E8E8;
+color: white;
+
+}
+
+/*fixed bar configuration*/
+
+.principal{
+height: 95px;
+background-color: rgba(255,255,255,0.9);
+width: 100%;
+}
+.change{
+display: flex;
+justify-content: space-around;
+}
+.picture{margin-top: 15px;}
+.choose{margin-top: 60px;}
+.place{height: 95px;}
+li{
+display: inline;
+margin-right: 8px;
+}
+.option{
+list-style: none;
+padding: 3px 6px 3px 6px;
+color: #00008B;
+font-weight: bold;
+}
+.line li{color:#00008B;}
+.option:hover{
+text-decoration: none;
+background: #00008B;
+color: white;
+font-weight: bold;
+border-radius: 7px;
+}
+.can{
+margin-top: 10px;
+color: #607B8B;
+}
+
+/*range: "climatização e elétrica"*/
+
+.clima{
+width: 100%;
+height: 30px;
+background: #9C9C9C;
+}
+.clima p{
+color: #00008B;
+padding-left: 75px;
+font-style: italic;
+padding-top: 3px;
+}
+
+/*track that follows the image (home)*/
+
+.write-service{
+width: 100%;
+height: 100px;
+align-items: center;
+background: #C1CDCD;
+margin-top: 30px;
+margin-bottom: 30px;
+display: flex;
+justify-content: center;
+}
+.select{
+width: 100%;
+background: white;
+color: #607B8B;
+height: 40px;
+display: flex;
+justify-content: center;
+font-weight: bold;
+margin-top: 5px;
+margin-bottom: 5px;
+padding-top: 10px;
+}
+
+ /*conservation tips (home)*/
+
+.edge{
+width: 100%;
+background: white;
+height: auto;
+margin-bottom: 30px;
+}
+.card-home{
+width: 300px;
+height: 300px;
+color: #607B8B;
+}
+
+ /* cards of the page (serviços)*/
+
+.card-bin{
+display: flex;
+background: #C1CDCD;
+justify-content: center;
+height: 500px;
+align-items: center;
+padding-left: 10px;
+padding-right: 10px;
+width: 100%;
+}
+.paper{
+width: 300px;
+height: 400px;
+background: white;
+border-radius: 6px;
+display: flex;
+flex-direction: column;
+color: #607B8B;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+.servi{
+height: 250px;
+width: auto;
+margin: 20px;
+text-align: center;
+}
+.photo{
+height: 150px;
+width: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.uniq{
+margin-left: 20px;
+margin-right: 20px;
+}
+.img-card{
+border-radius: 6px;
+}
+
+/*card of the page (empresa)*/
+.company{
+width: 100%;
+height: 450px;
+background: #C1CDCD;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-left: 10px;
+padding-right: 10px;
+}
+.logo-home{
+height: 350px;
+width: 100%;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.entre{
+width: 20px;
+}
+   
+/*contact form of the page (contato)*/ 
+
+.send{background: #607B8B;
+color: white;}
+.send:hover{
+    color: white;
+}
+.jumbotron{
+background:#C1CDCD ;
+color: white;
+margin-bottom: 0px;
+}
+
+/*card of the page (success)*/
+.success-div{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 400px;
+background: white;
+}
+.success-card{
+background: #B5B5B5;
+color: white;
+
+}
+.ok{
+color: white;
+}
+.ok:hover{
+    color: white;
+}
+ /*footer of the pages*/
+.footer-bin{background: #828282;
+margin-top: 5px;}
+.card-body p{font-size: 15px;}
+.long{height: 400px;}
+@media screen and (max-width: 1200px){
+    .company{                           
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        height: 100%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        } 
+        .logo-home{margin-top: 20px;}
+}
+
+@media screen and (max-width: 900px){
+    /* range fixed*/
+
+.change{
+display: flex;
+flex-direction: column;
+}
+.principal{height: 150px;}
+.place{height: 150px;}
+.choose{
+margin-top: 10px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+font-size: 12px;
+}
+.clima{
+    display: flex;
+    justify-content: center;
+}
+.logo-home{
+    height: auto;
+}
+.clima p{
+    padding-left: inherit;
+}
+.can{
+display: block;
+margin-left: auto;
+margin-right: auto;
+font-size: 10px;
+margin-top: -10px;
+}
+
+.can p{text-align: center;}
+.card-bin{
+display: flex;
+flex-wrap: wrap;
+align-content: space-between;
+height: 100%;
+}
+/**/
+
+
+.picture{
+display: block;
+margin-left: auto;
+margin-right: auto
+}
+.entre{width: 0px;}
+.write{margin-bottom: 20px;}
+.long{
+height: 700px;
+    }
+}
