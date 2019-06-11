@@ -31,7 +31,7 @@ var express = require('express'),
           secure: true,
           auth: {
               user: 'maggieebart@gmail.com',
-              pass: 'bonnenuit'
+              pass: '******'
           }
           
       });
