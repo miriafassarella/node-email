@@ -37,7 +37,7 @@ var express = require('express'),
       });
       let mailOptions = {
           from: '"site-Artec" <maggieebart@gmail.com>', // sender address
-          to: 'miriafassarella@gmail.com', // list of receivers
+          to: 'moncourriel@gmail.com', // list of receivers
           subject: "Pedido de Orçamento!",
             html: "<strong>Nome: </strong>" + req.body.name + "<br><strong>Email: </strong>" + req.body.email
             + "<br><strong>Mensagem: </strong>" + req.body.message
